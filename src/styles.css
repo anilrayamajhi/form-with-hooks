@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Verdana, Geneva, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.container {
+  margin: 10rem auto;
+  width: 500px;
+}
+
+input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-top: 0.5em;
+  border-radius: 4px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+button {
+  background: black;
+  font-size: 1.1rem;
+  color: #eeeeee;
+  margin: 1em;
+  border-radius: 4px;
+  padding: 1rem 3rem;
+}
+
+.error-input {
+  border: 2px solid red;
+}
